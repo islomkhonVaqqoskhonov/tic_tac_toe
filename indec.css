@@ -1,0 +1,99 @@
+.board {
+    margin-left: 40%;
+    width: 400px;
+    height: 400px;
+    background-color: rgb(179, 20, 20);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.hisob {
+
+    font-size: 30px;
+    text-align: right;
+    font-family: cursive;
+}
+
+.kimni-navbati {
+    margin-left: 20%;
+    font-size: 30px;
+    font-family: cursive;
+}
+
+.cell {
+    text-align: center;
+    width: 120px;
+    height: 120px;
+    background-color: blue;
+    margin: 5px;
+    font-size: 5em;
+    font-family: cursive;
+    font: optional;
+}
+button {
+    background-color: #222;
+    color: #fff;
+    font-size: 18px;
+    font-family: cursive;
+    border: 1px solid #222;
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin-left: 70%;
+}
+
+.alert {
+    background-color: #0f0ce0; /* Qizil rang */
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: none; /* Boshlashda yashirilgan bo'lishi kerak */
+}
+
+/* Tugma stili */
+.alert button {
+    background-color: white;
+    color: #f44336; /* Qizil rang */
+    border: none;
+    padding: 5px 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #fbfafa;
+    font-family: cursive;
+    color: #1400f3;
+    transform: scale(1.2);
+}
+
+h1 {
+    text-align: center;
+    font-family: cursive;
+}
+
+h4 {
+    text-align: right;
+    font-family: cursive;
+}
+
+body {
+    background-color: #1cad7d;
+}
+
+#footer {
+    font-size: 20px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    margin-top: 30px;
+    font-family: cursive;
+    padding: 1px 0px;
+}

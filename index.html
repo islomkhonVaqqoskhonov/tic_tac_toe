@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./indec.css">
+    <style>
+    </style>
+</head>
+
+<body>
+    <h4>#isa_ako</h4>
+    <h1>Tic Tac Toe</h1>
+    <hr>
+    <hr>
+    <p class="hisob"></p>
+    <p class="kimni-navbati"></p>
+    <div class="board">
+        <p class="cell c1" onclick="game.tear(0, 0)">1</p>
+        <p class="cell c2" onclick="game.tear(1, 0)">2</p>
+        <p class="cell c3" onclick="game.tear(2, 0)">3</p>
+        <p class="cell c4" onclick="game.tear(0, 1)">4</p>
+        <p class="cell c5" onclick="game.tear(1, 1)">5</p>
+        <p class="cell c6" onclick="game.tear(2, 1)">6</p>
+        <p class="cell c7" onclick="game.tear(0, 2)">7</p>
+        <p class="cell c8" onclick="game.tear(1, 2)">8</p>
+        <p class="cell c9" onclick="game.tear(2, 2)">9</p>
+    </div>
+    <button onclick="game.restart()">Qaytadan !</button>
+    <div id="footer">
+        <p>Developer &copy; Isa_ako</p>
+    </div>
+    
+    <script src="./tic-tac-toe.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
